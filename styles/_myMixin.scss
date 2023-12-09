@@ -1,0 +1,99 @@
+@import './myVariable';
+
+
+@mixin body {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+@mixin card-commun {
+    border-radius: $--small-radius;
+    
+    @media only screen and (max-width:800px) {
+        font-size: 30px;
+    }
+}
+
+@mixin small-card ($border-color) {
+    @include card-commun();
+    border-color: $--color-black;
+
+}
+@mixin formCommonStyle{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid $--color-neutral-400;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin formContainer{
+    @include formCommonStyle;
+    width: 31rem;
+    height: 25rem;
+  
+}
+@mixin signUpFormContainer{
+       @include formCommonStyle();
+       
+}
+
+@mixin formFields{
+    padding: 13px 1rem;
+    outline: none;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background-color: $--color-neutral-200;
+}
+@mixin formButton{
+    background-color: $--color-button-primary;
+    color: white;
+    width: 78%;
+    border-radius: 7px;
+    padding: 10px 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    border: none;
+}
+
+@mixin cardContainer{
+    display: flex;
+    direction: rtl;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin normalInput{
+    width: 200px;
+    height: 10px;
+    background-color: $--color-neutral-200;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.17;
+    border: none;
+    direction: rtl;
+    padding: 1em;
+    padding-right: 30px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 10;
+}
+@mixin incOrDecButtonSection{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+@mixin incOrDecButton{
+    color: #ef4056;
+    border: none;
+    cursor: pointer;
+   
+}

@@ -1,0 +1,38 @@
+@import '/styles/myMixin';
+.container{
+  @include signUpFormContainer;
+ 
+    span{
+    font-size: 22px;
+    padding-top: 20px;
+     }
+  p{
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    div{
+        padding: 10px;
+        display: flex;
+    }
+    label{
+        padding: 10px
+    }
+}
+
+
+.formFields{
+   @include formFields;
+   width: 77% ;
+   padding: 10px 1rem;
+   height: 25px;
+}
+.formButton{
+   @include formButton
+}

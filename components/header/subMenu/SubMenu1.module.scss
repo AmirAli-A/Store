@@ -1,0 +1,45 @@
+@import '../myVariable';
+.subMenu1Container{
+    overflow: auto;
+    direction: ltr;
+    ul{
+      display: block;
+    }
+}
+
+
+.subMenu1Container li {
+    list-style: none;
+    padding: 20px 12px;
+    text-align: end;
+}
+.subMenu1Container li:hover {
+    background-color: $--color-neutral-100;
+   
+}
+
+.serviceLinks{
+    color: $--color-neutral-700 ;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.serviceLinks:hover{
+    color: $--color-icon-brand;
+   
+
+}
+
+.subMenu1Container::-webkit-scrollbar {
+  width: 8px;
+
+}
+ .subMenu1Container::-webkit-scrollbar-thumb {
+    background-color: $--color-neutral-300;
+    border-radius: 8px;
+  }
+  .subMenu1Container::-webkit-scrollbar-track {
+    background-color: $--color-neutral-100;
+    border-radius: 8px;
+  }

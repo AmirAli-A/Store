@@ -1,0 +1,229 @@
+@import '/styles//myVariable';
+@import '/styles//myMixin';
+
+
+@font-face {
+    font-family: iransans;
+    src: url(/styles/fonts/iranSans/Webfonts/fonts/woff2/IRANSansX-Regular.woff2);
+}
+@font-face {
+    font-family: iranSans2;
+    src: url(/styles/fonts/Sans\ a4fran3.woff);
+}
+
+.mainContainer{
+    display: flex;
+    direction: rtl;
+    position: relative;
+}
+
+.mainImageContainer{
+  
+   width: 65%;
+   display: flex;
+   align-items: baseline;
+   img{
+     width: 100%;
+     border-radius: 5px;
+   }
+}
+.thumbnails{
+    width: 33%; 
+    margin-top: 25px;
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    li{
+      
+        margin-left: 23px;
+        list-style: none;
+        border: 1px solid $--color-neutral-400;
+        border-radius: 5px;
+    }
+    img{
+        width: 80px;
+        height: 75px;
+        cursor: pointer;
+    }
+
+
+}
+
+.lastImg{
+     opacity: 0.4 !important;
+     position: relative;
+}
+.allImageIcon{
+    position: absolute;
+    bottom: 8%;
+    right: 28%;
+    font-size: 33px;
+    color: black;
+   
+}
+.allImageContainer{
+    width: 64rem;
+    height: 75vh;
+    position: absolute;
+    right: 12%;
+    z-index: 10;
+    background-color: wheat;
+    text-align: center;
+    border-radius: 5px;
+    svg{
+        position: absolute;
+        left: 2%;
+        top: 3%;
+        font-size: 22px;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+.productContainer{
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+}
+.attributesContainer{
+    h2{
+        padding: 10px;
+        border-bottom: 1px solid $--color-neutral-600;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+}
+.attributes{
+  
+    td{
+        font-size: 17px;
+        padding: 10px;
+        color: $--color-neutral-800;
+    }
+    
+}
+.sellerAndPriceContainer{
+    background-color: $--color-neutral-100;
+    width: 500px;
+    height: 71vh;
+    border-radius: 8px;
+    border: 1px solid $--color-neutral-300;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     h2{
+        margin-right: 2rem;
+        font-size: 17px;
+     }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .storeName{
+        position: relative;
+    }
+    .storeIcon{
+        position: absolute;
+        font-size: 24px;
+        left: 18%;
+    }
+    .guaranteeInfoText{
+        font-size: 16px;
+        position: relative;
+    }
+   
+    .guaranteeIcon{
+        position: absolute;
+        font-size: 20px;
+        left: 22%;
+        top: 29%;
+    } 
+
+    .checkText{
+        position: relative;
+        
+    }
+    .checkIcon{
+        position: absolute;
+        font-size: 20px;
+        left: 22%;
+    }
+
+ 
+    span{
+        
+        font-size: 16px;
+       
+    }
+ 
+    p{
+        
+        font-size: 20px;
+        margin-right: 3rem;
+        text-align: center;
+        line-height: 30px;
+        border-top: 1px solid $--color-neutral-400;
+        padding-top: 20px;
+    }
+    .priceInfoContainer{
+        border-top: 1px solid $--color-neutral-400;
+        justify-content: space-evenly !important;
+    }
+    .addToCartButton{
+        background-color: $--color-button-primary;
+        color: white;
+        padding: 9px;
+        width: 17rem;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 19px;
+        margin-top: 20px;
+        margin-right: 9%;
+    }
+}
+.btnText{
+    flex-direction: column;
+}
+
+.descriptionContainer{
+    direction: rtl;
+    border-top: 1px solid gray;
+    margin-top: 3rem;
+    p{
+        line-height: 29px;
+        font-size: 16px;
+        font-family: iransans
+    }
+}
+
+.incOrDecButtonSection{
+   @include incOrDecButtonSection;
+   width: 104px;
+
+    .incOrDecButton{
+       @include incOrDecButton;
+       font-size: 30px;
+       margin-right: 9%;
+    }
+ 
+   
+} 
+.navBtn{
+        font-size: 18px;
+        text-decoration: none;
+        color: $--color-secondary-700;
+    } 
+
+
+    @media (max-width:768px){
+        .sellerAndPriceContainer{
+            display: none;
+        }
+    }

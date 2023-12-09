@@ -9,12 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.6.2",
+    "formik": "^2.4.3",
+    "immer": "^10.0.2",
     "next": "12.2.5",
+    "node-sass": "^7.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-image-gallery": "^1.2.11",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "sass": "^1.57.0",
+    "uuidv4": "^6.2.13",
+    "yup": "^1.0.2"
   },
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "style-loader": "^3.3.1"
   }
 }

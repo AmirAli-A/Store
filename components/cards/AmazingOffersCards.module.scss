@@ -1,0 +1,83 @@
+@import '_card_mixin.scss';
+.singleCardContainer{
+   display: flex;
+   padding-top: 50px;
+   padding-right: 10px;
+
+}
+.card{
+    
+   //  @include card-commun;
+    width: 182px; ;
+    height: 246px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    display: flex;
+
+
+ }
+
+ .picture{
+   width: 100%;
+   cursor: pointer;
+ }
+ .priceContainer{
+    display: flex;
+ }
+ .price{
+  
+  font-size: 20px;
+ 
+ }
+ .price::before{
+    content: '$';
+    font-size: 1rem;
+    padding-right: 0.1rem;
+    position: relative;
+    top: -0.3rem;
+    
+ 
+ }
+ .offPrice{
+    background-color: #ef394e;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 30px;
+ }
+ 
+ .lastPrice{
+    text-decoration: line-through;
+    margin-bottom: 20px;
+ }
+
+
+ @media (max-width:768px){
+   .singleCardContainer{
+      justify-content: center;
+      align-items: center;
+      .card{
+         width: 154px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       .price{
+         font-size: 17px;
+         font-family: iransans;
+       }
+       .offPrice{
+        
+         font-size: 15px;
+         font-family: 'iransans';
+         margin-right: 7px;
+         margin-left: 0px;
+     
+       }
+       .lastPrice{
+         font-size: 16px;
+       }
+      }
+   }
+
+
+  }

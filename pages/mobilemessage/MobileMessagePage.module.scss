@@ -1,0 +1,19 @@
+@import '/styles/myMixin';
+.container{
+  @include formContainer;
+    span{
+    font-size: 22px;
+    padding-top: 20px;
+     }
+  p{
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
+
+.formFields{
+   @include formFields;
+}
+.formButton{
+   @include formButton
+}

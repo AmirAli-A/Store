@@ -1,0 +1,64 @@
+@import '/styles/myMixin';
+@import '/styles/myVariable';
+
+.pageContainer{
+    direction: rtl;
+    position: relative;
+}
+.mainContainer{
+    border: 1px solid $--color-neutral-300 ;
+    border-radius: 5px;
+    width: 72%;
+}
+.shoppingCartConatiner{
+    direction: rtl;
+    border-bottom: 1px solid $--color-neutral-300 ;
+    
+}
+.productConatiner{
+    display: flex;
+}
+.incOrDecButtonSection{
+    @include incOrDecButtonSection;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 45px;
+    margin-right: 22px;
+     .incOrDecButton{
+        @include incOrDecButton;
+        background-color: transparent;
+        font-size: 23px;
+        padding: 10px;
+     }
+  
+    
+ } 
+
+ .purchesContainer{
+    border: 1px solid #c0c2c5;
+    width: 23%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    left: 4%;
+    bottom: 45%;
+    
+    button{
+    padding: 15px 90px;
+    border: none;
+    border-radius: 8px;
+    background-color: $--color-button-primary;
+    color: white;
+    font-family: system-ui;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+   
+}
+ 

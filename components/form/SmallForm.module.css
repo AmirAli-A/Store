@@ -1,0 +1,26 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.container button {
+  width: 90px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 13px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=SmallForm.module.css.map */

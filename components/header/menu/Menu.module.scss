@@ -1,0 +1,79 @@
+@import '../myVariable';
+
+
+
+
+.navbar{
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+        }
+    }
+}
+
+
+
+.menu-item1{
+   color: $--color-neutral-700;
+   font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    padding: 10px 25px;
+    border: none;
+    z-index: 20;
+    cursor: pointer;
+}
+.menu-item1::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    z-index: 30;
+    background-color: $--color-brand-primary-700;
+    bottom: 1px;
+    transition: 0.5s;
+    left: 10px;
+}
+
+.menu-icon{
+    position: absolute;
+    bottom: 29px;
+    cursor: pointer;
+}
+
+.link{
+    color: $--color-neutral-600;
+    font-size: 12px;
+    font-weight: 450;
+    display: block;
+    padding: 10px 25px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    z-index: 20;
+    text-decoration: none;
+}
+.link::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    z-index: 30;
+    background-color: $--color-brand-primary-700;
+    bottom: 1px;
+    transition: 0.5s;
+    left: 10px;
+    
+}
+.link:hover::before{
+    width: 100%;
+    
+}
+
+.icon{
+    position: absolute;
+    bottom: 16px;
+}

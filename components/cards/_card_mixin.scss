@@ -1,0 +1,15 @@
+
+
+
+@mixin card-commun {
+    
+    
+    @media only screen and (max-width:800px) {
+        font-size: calculate-fontSize(20,1);
+    }
+}
+@function calculate-fontSize($num1,$num2){
+$result : 0;
+$result : $num1 * $num2 * 1px; 
+@return $result;
+}

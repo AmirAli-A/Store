@@ -1,0 +1,84 @@
+@import '../components/myVariable';
+@import '/styles/myMixin';
+.body{
+ background-color:$--color-neutral-000;
+
+}
+
+ 
+
+.mainContainer{
+    text-align: center;
+}
+.mainContainer::-webkit-scrollbar {
+    width: 8px;
+  
+  }
+   .mainContainer::-webkit-scrollbar-thumb {
+      background-color: $--color-neutral-300;
+      border-radius: 8px;
+    }
+    .mainContainer::-webkit-scrollbar-track {
+      background-color: $--color-neutral-100;
+      border-radius: 8px;
+    }
+  
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainPageCardContainer{
+    @include cardContainer;
+}
+.carouselDivider{
+    margin: 10px;
+    margin-top: 2rem;
+}
+.pictureRowContainer{
+    padding: 10px;
+}
+.pictureRow{
+    width: 100%;
+    border-radius: 7px;
+}
+.categoryCardStyle{
+    width: 160px;
+}
+.suggestionCardStyle{
+    width: 70px;
+}
+.normalCarouselContainer{
+    border: 1px solid $--color-neutral-300;
+    border-radius: 7px;
+    margin-top: 2rem;
+    height: 30vh;
+}
+.brandPicture{
+    width: 80px;
+}
+.categoryPictureDivider{
+    padding: 17px;
+
+}
+.suggestPictureDivider{
+    padding: 44px;
+    border: 0.2px solid $--color-neutral-400;
+}
+
+@media (max-width:768px){
+    .normalCarouselContainer{
+        .brandPicture{
+            width: 100px;
+            margin-top: 12px;
+        }
+            li{
+                width: 160px !important;
+            }
+            button{
+                display: none;
+            }
+    }
+}
+
+

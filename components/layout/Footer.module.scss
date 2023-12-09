@@ -1,0 +1,22 @@
+@import '../myVariable';
+@import '../../styles/myMixin';
+.footerContainer{
+    margin-top: 20px;
+    border: 1px solid $--color-neutral-200;
+    border-radius: 5px;
+
+}
+
+.footerCardContainer{
+    @include cardContainer;
+    justify-content: space-around;
+}
+.footerLinksContainer{
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+}
+.fieldStyle{
+    @include normalInput;
+    margin-right: 0px;
+}
