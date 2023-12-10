@@ -7,7 +7,7 @@ import PictureRow from '../components/pictureRow/PictureRow';
 import MinimalCard from '../components/cards/MinimalCard';
 import NormalCarousel from '../components/carousel/NormalCarousel';
 import { useSelector } from 'react-redux';
-import Ninja from '../components/test/ninja';
+import TabletFooter from '../components/footer/TabletFooter';
 
 
 export default function Home({homePageData}) {
@@ -31,13 +31,8 @@ export default function Home({homePageData}) {
 
     
        <main className={styles.mainContainer} >
-        <Ninja/>
-        {/* {homePageData.map((data) => {
-          return (
-            <h4>{data.name}</h4>
-          )
-        })} */}
-        {/* <div className= {`${styles.main}`} >
+  
+        <div className= {`${styles.main}`} >
           
           <Slider/>
           
@@ -58,10 +53,11 @@ export default function Home({homePageData}) {
 
            <NormalCarousel  header='محبوب ترین برندها' 
            carouselContainer={styles.normalCarouselContainer} PictureClassName={styles.brandPicture}/>
-
+         
+         <TabletFooter/>
            
         </div>
-        */}
+       
          
       
        </main>

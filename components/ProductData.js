@@ -17,7 +17,7 @@ export const responsive = {
       items: 1
     }
   };
-
+ 
 export const amazingOffersProducts = [
     {
         
@@ -114,207 +114,479 @@ export const amazingOffersProducts = [
         
         id:3,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
-        cardImage : 'images/product_img/watch/cardimage.webp',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
+        cardImage : 'images/product_img/ps5/ps5Card.jpg',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
          price_before : 40000000,
          price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:4,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:5,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:6,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:7,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:8,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:9,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:10,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
          off_percent : '5%',
-         productQuantity:0
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:11,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
-         off_percent : '5%'
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
+         off_percent : '5%',
+         productQuantity:0,
+         productPriceInCart:0
     }
     ,
     {
         
         id:12,
         title : 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-        attributes : '  امکانات ظاهری : دسته بی سیم ' ,
+        attributes : [
+            {title:'فناوری ارتباطی',info:'بلوتوث'},
+            {title:'امکانات ظاهری',info:'دسته بیسیم'},
+            {title:'تعداد دسته',info:'یک عدد'}
+        ]
+         
+       ,
         description : 'کنسول بازی سونی مدل Playstation 5 ظرفیت 825 گیگابایت مدل 1216A دارای درایو CD سفارش اروپایکی از محصولات بسیار حرفه‌ای و خواستنی در رده کنسول‌هلای بازی در دنیا است که توسط کمپانی سونی ارائه شده است. این کنسول با اعمال تغییراتی ظاهری و سخت‌افزاری طراحی شده است. درایو بازی این محصول همچنان Ultra HD Blu-ray, up to 100GB/disc است و خروجی تصویر آن، از فرمت 4K پشتیبانی می‌کند. پردازشگر اصلی و گرافیکی این مدل تغییر اساسی کرده و از سری 4 قدرت بالاتری دارد. همچنین پلی‌استیشن 5 به‌واسطه پورت LAN یا اتصال بی‌سیم Wi-Fi به اینترنت متصل می‌شود و امکانات متعددی را برای کاربران فراهم می‌کند که بتوانند با عضویت در شبکه‌ی PSN و پرداخت هزینه، بازی‌های مورد نظر خود را خریداری و دانلود کنند یا اینکه به صورت آنلاین با دوستان خود بازی کنند. پورت‌ USB از نوع Type-C به آن اضافه شده است. دسته‌ها از طریق بلوتوث به کنسول متصل می‌شوند و برد مورد نیاز را پشتیبانی می‌کند. خروجی تصویر، پورت HDMI است و کیفیت 4K را پشتیبانی می‌کند. این مدل از حافظه‌ی داخلی 825GB بهره‌مند است.',
         warningMessage : 'درخواست مرجوع کردن کالا در گروه کنسول خانگی با دلیل "انصراف از خرید" تنها در صورتی قابل تایید است که کالا در شرایط اولیه باشد (در صورت پلمپ بودن، کالا نباید باز شده باشد).',
         cardImage : 'images/product_img/ps5/ps5Card.jpg',
-        productPageImage :  [
-        'images/product_img/ps5/ps5 1.jpg', 
-        'images/product_img/ps5/ps5 2.jpg',
-        'images/product_img/ps5/ps5 3.jpg',
-        'images/product_img/ps5/ps5 4.jpg',
-        'images/product_img/ps5/ps5 5.jpg',
-    ],
-         price_before : '40,000,000',
-         price_after : '38,000,000',
-         off_percent : '5%'
+
+        productPageImage :  {
+              
+            allImage: [
+                    'images/product_img/ps5/ps5 7.jpg', 
+                    'images/product_img/ps5/ps5 2.jpg',
+                    'images/product_img/ps5/ps5 3.jpg',
+                    // 'images/product_img/ps5/ps5 4.jpg',
+                    // 'images/product_img/ps5/ps5 5.jpg'
+               ],
+
+               imageGallery:[
+                'images/product_img/ps5/ps5 7.jpg', 
+                'images/product_img/ps5/ps5 2.jpg',
+                'images/product_img/ps5/ps5 3.jpg',
+                'images/product_img/ps5/ps5 4.jpg',
+                'images/product_img/ps5/ps5 5.jpg'
+               ],
+     
+           
+          lastImage : [
+               'images/product_img/ps5/ps5 4.jpg',
+               ]
+                           
+           },
+         guaranteeInfo : 'گارانتی ۲۴ ماهه همراه ایران طلایی(LetMeRepair) (سرویس ویژه شکستگی و آبخوردگی)',
+         sellerName : 'تک شاپ',
+         price_before : 40000000,
+         price_after : 38000000,
+         off_percent : '5%',
+         productQuantity:0,
+         productPriceInCart:0
     }
 ]

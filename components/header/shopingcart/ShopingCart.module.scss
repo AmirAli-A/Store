@@ -1,9 +1,15 @@
+.cartLink{
+    margin-right: 10px;
+}
 .cartBadge{
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border-radius: 25%;
     background-color: red;
     color: white;
-    position: relative;
-    
+    position: absolute;
+    top: 22%;
+    text-align: center;
+    font-size: 12px;
+    left: 46px;
 }

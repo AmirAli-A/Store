@@ -12,8 +12,8 @@ const Footer = () => {
     <footer >
         <div className={styles.footerContainer}>
              <div className={styles.footer}>
-              <div style={{display:'flex',flexDirection:'column',marginRight:'30px',alignItems:'end',marginTop:'10px'}}>
-                    <Picture src={'/images/digikalaFarsiLogo.svg'} href={'./'}/>
+              <div className={styles.pictureContainer}>
+                    <Picture src={'/images/eshop.svg'} href={'./'} className={styles.logo}/>
                 <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱
                             |
                     ۷روز هفته، ۲۴ ساعته پاسخگوی شما هستیم

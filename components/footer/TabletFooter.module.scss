@@ -1,0 +1,35 @@
+.tabletFooter{
+  display: none;
+}
+
+@media (max-width:768px){
+    .tabletFooter{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    direction: rtl;
+    box-shadow: 0 -1px 1px rgba(0,0,0,.14), 0 -2px 2px rgba(0,0,0,.05);
+    div{
+        margin-top: 20px;
+    }
+    svg{
+        position: absolute;
+        top: 2%;
+        bottom: 1%;
+        font-size: 26px;
+        color: gray;
+    }
+    a{
+        position: relative;
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    }
+}

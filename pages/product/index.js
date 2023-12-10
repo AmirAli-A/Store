@@ -134,9 +134,7 @@ const index = () => {
             
               </div>
                      <div>
-                    <div>
-                      this is price container
-                    </div>
+                  
                    </div>
                 <div className={style.descriptionContainer}>
                   <h2>توضیحات</h2>

@@ -10,13 +10,13 @@ export const justForTest = [
     ,
     {
         id: 3,
-        link: 'اتاق خبر دیجی‌کالا',
+        link: ' اتاق خبر ',
         useFor: 'ul1',
     }
     ,
     {
         id: 4,
-        link: 'فروش در دیجی‌کالا',
+        link: 'فروش در ای شاپ',
         useFor: 'ul1',
     }
     ,
@@ -28,13 +28,13 @@ export const justForTest = [
     ,
     {
         id: 6,
-        link: 'تماس با دیجی‌کالا',
+        link: 'تماس با ما',
         useFor: 'ul1',
     }
     ,
     {
         id: 7,
-        link: 'درباره دیجی‌کالا',
+        link: 'درباره ای شاپ',
         useFor: 'ul1',
     }
     ,
@@ -82,7 +82,7 @@ export const justForTest = [
     ,
     {
         id: 14,
-        tag: 'راهنمای خرید از دیجی‌کالا',
+        tag: 'راهنمای خرید از ما',
         useFor: 'ul3'
 
     }

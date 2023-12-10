@@ -7,6 +7,7 @@ import {VscTrash} from 'react-icons/vsc'
 
 const index = () => {
    const cart = useSelector(state=>state.shoppingCart)
+   
    const dispatch = useDispatch()
       let Prices = []
       for (let i = 0; i < cart.length; i++) {

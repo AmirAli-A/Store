@@ -5,12 +5,13 @@ import style from './Logo.module.scss'
 const Logo = () => {
   return (
     <Picture
-    src='images/digikalaLogo.png'
+    src='/images/eshop.svg'
     className={`${style.logo}`}
     alt='صفحه اصلی'
     href='/'
     />
+   
   )
 }
 
-export default Logo
+export default Logo 

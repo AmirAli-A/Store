@@ -4,24 +4,27 @@
 .carouselBackground{
     background-color: $--color-primary-500;
     width: 100%;
-    height: 40vh;
+    height: 29vh;
     border-radius: 5px;
     margin-top: 10px;
 }
 .amazingOffersLeftItems{
     width: 85%;
+    position: absolute;
+    bottom: 19%;
 }
+
 .amazingOffersRightItems{
     position: absolute;
     right: 2rem;
-    top: 58%;
+    top: 54%;
 }
 
 .amazingOffersText{
-    width: 100px;
+    width: 60%;
 }
 .amazingOffersBoxImg{
-    width: min-content;
+    width: 65%;
 }
 .amazingOffersLink{
     color: white;
@@ -30,20 +33,21 @@
     border-radius: 5px;
     border: 1px solid white;
     width: 100px;
+    position: absolute;
+    right: 12%;
 }
 
-// .cardsConatiner{
-//     display: flex;
-// }
+
+
 
 @media (max-width:768px){
     .carouselBackground{
-        height: 42vh;
+        height: 32vh;
         margin-top: 1.7rem;
            .amazingOffersLeftItems{
             width: 85%;
             position: absolute;
-            top: 32%;
+            top: 27%;
             right: 23%;
             li{
                 width: 160px !important;
@@ -55,8 +59,7 @@
            .amazingOffersRightItems{
             position: absolute;
             right: 2rem;
-            bottom: 35%;
-            top: 42%;
+            top: 33%;
             .amazingOffersText{
                 width: 80px
             }

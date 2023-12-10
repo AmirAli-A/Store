@@ -6,7 +6,17 @@
     border-radius: 5px;
 
 }
-
+.pictureContainer{
+     display: flex;
+    flex-direction: column;
+     margin-right: 30px;
+     align-items: flex-end;
+     margin-top: 10px;
+    
+} 
+.logo{
+        width: 200px
+     }
 .footerCardContainer{
     @include cardContainer;
     justify-content: space-around;
