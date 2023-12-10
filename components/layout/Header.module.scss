@@ -59,7 +59,16 @@
         }
         .rightItem{
             div{
-                display: none;
+                display: flex;
+                img{
+                    height: 35px;
+                }
+                input{
+                    width: 500px;
+                }
+                svg{
+                    right: 141px
+                }
             }
         }
     }

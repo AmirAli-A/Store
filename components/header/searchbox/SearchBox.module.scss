@@ -24,3 +24,12 @@
     height: 24px;
     color: $--color-icon-low-emphasis ;
 }
+
+@media (max-width:768px){
+    .input{
+        width: 536px;
+    }
+    .icon{
+        right:175px;
+    }
+}
