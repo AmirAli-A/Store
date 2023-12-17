@@ -29,6 +29,7 @@
     "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
     "sass": "^1.57.0",
     "uuidv4": "^6.2.13",
     "yup": "^1.0.2"
