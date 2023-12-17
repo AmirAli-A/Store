@@ -8,7 +8,7 @@ import {
 } from "../../redux/actions/ShoppingCartAction";
 import { VscTrash } from "react-icons/vsc";
 
-const index = () => {
+const Index = () => {
   const cart = useSelector((state) => state.shoppingCart);
 
   const dispatch = useDispatch();
@@ -101,4 +101,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

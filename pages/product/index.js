@@ -15,9 +15,9 @@ import {
 } from "../../redux/actions/ShoppingCartAction";
 import AddToCartButton from "../../components/button/AddToCartButton";
 
-const product = useSelector((state) => state.product.productDetail);
-const shoppingCart = useSelector((state) => state.shoppingCart);
-const index = () => {
+const Index = () => {
+  const product = useSelector((state) => state.product.productDetail);
+  const shoppingCart = useSelector((state) => state.shoppingCart);
   const availableProduct = shoppingCart.find(
     (item) => item.id === product[0].id
   );
@@ -158,4 +158,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
