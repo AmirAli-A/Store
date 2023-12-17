@@ -13,7 +13,7 @@ const ProductImageSlider = (props) => {
   return (
     <div key={pics.index} className={style.productSlider_right}>
       <div className={style.mainImageContainer}>
-        <Image src={mainImage} />
+        <Image alt="product image" src={mainImage} />
       </div>
       -
       <div className={style.thumbnails}>
@@ -22,6 +22,7 @@ const ProductImageSlider = (props) => {
             return (
               <li key={index}>
                 <Image
+                  alt="product image"
                   src={thumbnails}
                   onClick={() => {
                     setValue(index);
@@ -37,6 +38,7 @@ const ProductImageSlider = (props) => {
               <li key={index}>
                 <BiDotsHorizontalRounded className={style.allImageIcon} />
                 <Image
+                  alt="product image"
                   src={lastImg}
                   className={style.lastImg}
                   onClick={() => {

@@ -7,6 +7,7 @@ import {
   deleteProductFromCart,
 } from "../../redux/actions/ShoppingCartAction";
 import { VscTrash } from "react-icons/vsc";
+import Image from "next/image";
 
 const Index = () => {
   const cart = useSelector((state) => state.shoppingCart);
@@ -35,7 +36,11 @@ const Index = () => {
               <div className={style.shoppingCartConatiner} key={index}>
                 <div className={style.productConatiner}>
                   <div>
-                    <img src={productInfo.cardImage} width="150px" />
+                    <Image
+                      alt="image"
+                      src={productInfo.cardImage}
+                      width="150px"
+                    />
                   </div>
                   <div>
                     <h3>{productInfo.title}</h3>

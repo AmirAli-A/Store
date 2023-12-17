@@ -22,7 +22,7 @@ const ProductSecondImageDisplay = (props) => {
       </div>
       <div className={style.imagePart}>
         <div className={style.mainImageContainer}>
-          <Image src={mainImage} />
+          <Image alt="image" src={mainImage} />
         </div>
         <div className={style.thumbnailConatiner}>
           <ul>
