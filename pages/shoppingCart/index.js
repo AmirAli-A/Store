@@ -32,7 +32,7 @@ const Index = () => {
         <div className={style.mainContainer}>
           {cart.map((productInfo, index) => {
             return (
-              <div className={style.shoppingCartConatiner}>
+              <div className={style.shoppingCartConatiner} key={index}>
                 <div className={style.productConatiner}>
                   <div>
                     <img src={productInfo.cardImage} width="150px" />
