@@ -1,12 +1,15 @@
 @font-face {
-    font-family: iransans;
-    src: url(./styles//fonts/iranSans/Webfonts/fonts/woff/IRANSansX-Regular.woff);
+  font-family: iransans;
+  src: url(./styles//fonts/iranSans/Webfonts/fonts/woff/IRANSansX-Regular.woff);
 }
 
-body{
-    font-family: iransans;
+body {
+  font-family: iransans;
 }
 
-h1,h2,h3,h4{
-    font-family: iransans;
+h1,
+h2,
+h3,
+h4 {
+  font-family: iransans;
 }

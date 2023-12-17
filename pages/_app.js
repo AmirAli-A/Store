@@ -7,11 +7,6 @@ import Footer from "../components/layout/Footer";
 import "../global.css";
 import { PersistGate } from "redux-persist/integration/react";
 
-<link
-  rel="stylesheet"
-  href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"
-/>;
-
 function MyApp({ Component, pageProps }) {
   if (Component.getLayout) {
     return Component.getLayout(<Component {...pageProps} />);
