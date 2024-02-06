@@ -22,14 +22,14 @@ const ProductSecondImageDisplay = (props) => {
       </div>
       <div className={style.imagePart}>
         <div className={style.mainImageContainer}>
-          <Image alt="image" src={mainImage} />
+          <img alt="image" src={mainImage} />
         </div>
         <div className={style.thumbnailConatiner}>
           <ul>
             {pics.productPageImage.imageGallery.map((thumbnails, index) => {
               return (
                 <li key={index}>
-                  <Image
+                  <img
                     alt="thumbnails"
                     src={thumbnails}
                     onClick={() => {

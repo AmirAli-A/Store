@@ -36,7 +36,7 @@ const Index = () => {
               <div className={style.shoppingCartConatiner} key={index}>
                 <div className={style.productConatiner}>
                   <div>
-                    <Image
+                    <img
                       alt="image"
                       src={productInfo.cardImage}
                       width="150px"
